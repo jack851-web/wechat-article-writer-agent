@@ -1,0 +1,35 @@
+name: writeragent_frontend
+description: "WriterAgent - 公众号文章撰写智能体"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # 状态管理
+  provider: ^6.1.2
+
+  # 网络
+  dio: ^5.4.3+1
+
+  # WebSocket 流式输出
+  web_socket_channel: ^3.0.1
+
+  # Markdown 渲染
+  flutter_markdown: ^0.7.4+2
+
+  # 本地存储
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
